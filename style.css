@@ -6,7 +6,7 @@
   display: inline-block;
   width: 100px;
   height: 100px;
-  background-color: #eee;
+  background-color: gainsboro;
   cursor: pointer;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .card:hover {
-  box-shadow: inset 0px 0px 0px 1px red;
+  box-shadow: inset 0px 0px 0px 1px darkorchid;
   box-sizing: border-box;
 }
 
@@ -50,6 +50,6 @@
 }
 
 .color-hidden {
-  background-color: #eee;
+  background-color: gainsboro;
 }
 
