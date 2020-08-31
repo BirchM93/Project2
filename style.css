@@ -1,0 +1,12 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 60;
+    color: hotpink;
+}
