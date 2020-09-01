@@ -3,14 +3,17 @@ let preventClick = false;
 let combosFound = 0;
 
 const colors = [
-  'pink',
-  'yellow',
   'red',
-  'cyan',
+  'green',
   'blue',
-  'teal',
   'orange',
-  'green'
+  'purple',
+  'yellow',
+  'pink',
+  'aqua',
+  'grey',
+  'white'
+
 ];
 
 const cards = [...document.querySelectorAll('.card')];
@@ -67,7 +70,7 @@ function onCardClicked(e) {
     } else {
       combosFound++;
       clickedCard = null;
-      if (combosFound === 8) {
+      if (combosFound === 10) {
         alert('YOU WIN');
       }
     }

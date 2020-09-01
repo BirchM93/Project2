@@ -1,5 +1,6 @@
 .row {
   text-align: center;
+
 }
 
 .card {
@@ -8,6 +9,7 @@
   height: 100px;
   background-color: gainsboro;
   cursor: pointer;
+  border-radius: 60px;
 }
 
 .card.done {
@@ -36,8 +38,8 @@
 .orange {
   background-color: orange;
 }
-.cyan {
-  background-color: cyan;
+.purple {
+  background-color: purple;
 }
 .yellow {
   background-color: yellow;
@@ -45,8 +47,16 @@
 .pink {
   background-color: pink;
 }
-.teal {
-  background-color: teal;
+.aqua {
+  background-color: aqua;
+}
+
+.grey{
+  background-color: grey;
+}
+
+.white{
+  background-color: antiquewhite
 }
 
 .color-hidden {
