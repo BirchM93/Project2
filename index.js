@@ -1,4 +1,4 @@
-let clickedCard = null;
+let clickedCircle = null;
 let preventClick = false;
 let combosFound = 0;
 
@@ -16,27 +16,27 @@ const colors = [
 
 ];
 
-const cards = [...document.querySelectorAll('.card')];
+const circles = [...document.querySelectorAll('.circle')];
 for (let color of colors) {
-  const cardAIndex = parseInt(Math.random() * cards.length);
-  const cardA = cards[cardAIndex];
-  cards.splice(cardAIndex, 1);
-  cardA.className += ` ${color}`;
-  cardA.setAttribute('data-color', color);
+  const circleAIndex = parseInt(Math.random() * circles.length);
+  const circleA = circles[circleAIndex];
+  circles.splice(circleAIndex, 1);
+  circleA.className += ` ${color}`;
+  circleA.setAttribute('data-color', color);
 
-  const cardBIndex = parseInt(Math.random() * cards.length);
-  const cardB = cards[cardBIndex];
-  cards.splice(cardBIndex, 1);
-  cardB.className += ` ${color}`;
-  cardB.setAttribute('data-color', color);
+  const circleBIndex = parseInt(Math.random() * circles.length);
+  const circleB = circles[circleBIndex];
+  circles.splice(circleBIndex, 1);
+  circleB.className += ` ${color}`;
+  circleB.setAttribute('data-color', color);
 }
 
-function onCardClicked(e) {
+function onCircleClicked(e) {
   const target = e.currentTarget;
 
   if (
     preventClick ||
-    target === clickedCard ||
+    target === clickedCircle ||
     target.className.includes('done')
   ) {
     return;
@@ -47,29 +47,29 @@ function onCardClicked(e) {
     .trim();
   target.className += ' done';
 
-  if (!clickedCard) {
+  if (!clickedCircle) {
     // if we haven't clicked a card, keep track of the card, display it's color
-    clickedCard = target;
-  } else if (clickedCard) {
+    clickedCircle = target;
+  } else if (clickedCircle) {
     // if we have already clicked a card, check if the new card matches the old card color
     if (
-      clickedCard.getAttribute('data-color') !==
+      clickedCircle.getAttribute('data-color') !==
       target.getAttribute('data-color')
     ) {
       preventClick = true;
       setTimeout(() => {
-        clickedCard.className =
-          clickedCard.className.replace('done', '').trim() +
+        clickedCircle.className =
+          clickedCircle.className.replace('done', '').trim() +
           ' color-hidden';
         target.className =
           target.className.replace('done', '').trim() +
           ' color-hidden';
-        clickedCard = null;
+        clickedCircle = null;
         preventClick = false;
       }, 500);
     } else {
       combosFound++;
-      clickedCard = null;
+      clickedCircle = null;
       if (combosFound === 10) {
         alert('YOU WIN');
       }

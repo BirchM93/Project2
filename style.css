@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.card {
+.circle {
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -11,16 +11,16 @@
   border-radius: 60px;
 }
 
-.card.done {
+.circle.done {
   cursor: default;
 }
 
-.card.done:hover {
+.circle.done:hover {
   cursor: default;
   box-shadow: none;
 }
 
-.card:hover {
+.circle:hover {
   box-shadow: inset 0px 0px 0px 1px darkorchid;
   box-sizing: border-box;
 }
