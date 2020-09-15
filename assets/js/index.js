@@ -10,7 +10,7 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     $restart = $('.restart'),
     $deck = $('.deck'),
 
-    // Set variables to shorten code
+    // Set variables 
     nowTime,
     allOpen = [],
     match = 0,
@@ -19,7 +19,7 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     wait = 420,
     totalCard = objects.length / 2,
 
-    // Scoring system from 1 to 3 stars to shorten code
+    // Scoring system 
     stars3 = 14,
     stars2 = 16,
     star1 = 20;
@@ -67,20 +67,13 @@ function init() {
 // Adds a score from 1 to 3 stars depending on the amount of moves done
 function rating(moves) {
     let rating = 3;
-    if (moves > stars3 && moves < stars2) {
-        $rating.eq(3).removeClass('fa-star').addClass('fa-star-o');
-    } else if (moves > stars2 && moves < star1) {
-        $rating.eq(2).removeClass('fa-star').addClass('fa-star-o');
-    } else if (moves > star1) {
-        $rating.eq(1).removeClass('fa-star').addClass('fa-star-o');
-        rating = 1;
-    }
+  
     return { score: rating };
 }
 
-// Add boostrap modal alert window showing time, moves, score it took to finish the game, toggles when all pairs are matched.
+// Boostrap modal alert window showing time, moves, and score it took to finish the game, toggles when all pairs are matched.
 function gameOver(moves, score) {
-    $('#winnerText').text(`In ${second} seconds, you did a total of ${moves} moves with a score of ${score}. Well done!`);
+    $('#winnerText').text(`In ${second} seconds, you made a total of ${moves} moves. Well done!`);
     $('#winnerModal').modal('toggle');
 }
 
