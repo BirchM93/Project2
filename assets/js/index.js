@@ -64,13 +64,6 @@ function init() {
     initTime();
 }
 
-// Adds a score from 1 to 3 stars depending on the amount of moves done
-function rating(moves) {
-    let rating = 3;
-  
-    return { score: rating };
-}
-
 // Boostrap modal alert window showing time, moves, and score it took to finish the game, toggles when all pairs are matched.
 function gameOver(moves, score) {
     $('#winnerText').text(`In ${second} seconds, you made a total of ${moves} moves. Well done!`);
@@ -80,7 +73,6 @@ function gameOver(moves, score) {
 // Clicking on the button located on the top right of the game, enables the cards too be reset
 $restart.bind('click', function (confirmed) {
     if (confirmed) {
-        
         init();
     }
 });
