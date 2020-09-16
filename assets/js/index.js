@@ -1,7 +1,7 @@
 // All usefull objects and shortcuts to simplify coding
 let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle', 'headphones', 'headphones', 'eye', 'eye', 'star', 'star', 'pencil', 'pencil', 'envelope', 'envelope'],
 
-    // Useful selectors shortened
+    // Selectors
     $container = $('.container'),
     $scorePanel = $('.score-panel'),
     $moves = $('.moves'),
