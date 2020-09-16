@@ -1,123 +1,121 @@
 html {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+   box-sizing: inherit;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html,
+body {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
 }
-
-
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
 h2 {
-    font-family: sans-serif;
-    font-weight: 200;
+   font-family: sans-serif;
+   font-weight: 200;
 }
+
 
 /*
  * Styles for the deck of cards
  */
 
 .deck {
-    width: 660px;
-    min-height: 680px;
-    background: linear-gradient(160deg, lightblue, ghostwhite);
-    padding: 32px;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 5px;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-    align-items: center;
-    margin: 0 0 3em;
-   
+   width: 660px;
+   min-height: 680px;
+   background: linear-gradient(160deg, lightblue, ghostwhite);
+   padding: 32px;
+   border-radius: 10px;
+   border-style: solid;
+   border-width: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 0 3em;
 }
 
 .deck .card {
-    height: 125px;
-    width: 125px;
-    background: slategray;
-    font-size: 0;
-    color: #f10c0c;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
+   height: 125px;
+   width: 125px;
+   background: slategray;
+   font-size: 0;
+   color: #f10c0c;
+   border-radius: 8px;
+   cursor: pointer;
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
 }
 
 .deck .card.open {
-    transform: rotateY(0);
-    background: ghostwhite;
-    cursor: default;
+   transform: rotateY(0);
+   background: ghostwhite;
+   cursor: default;
 }
 
 .deck .card.show {
-    font-size: 50px;
+   font-size: 50px;
 }
 
 .deck .card.match {
-    cursor: default;
-    background: lightyellow;
-    font-size: 50px;
+   cursor: default;
+   background: lightyellow;
+   font-size: 50px;
 }
+
 
 /*
  * Styles for the Score Panel
  */
 
 .score-panel {
-    text-align: left;
-    width: 345px;
-    margin-bottom: 10px;
+   text-align: left;
+   width: 345px;
+   margin-bottom: 10px;
 }
 
 .score-panel .restart {
-    float: right;
-    cursor: pointer;
+   float: right;
+   cursor: pointer;
 }
+
 
 /*
  * Responsiveness
  */
 
-@media only screen and (max-width: 800px){
-    .deck .card{
+@media only screen and (max-width: 800px) {
+   .deck .card {
       width: 75px;
       height: 75px;
       line-height: 75px;
-    }
-  
-    .deck {
+   }
+   .deck {
       width: 500px;
-    }
+   }
 }
-  
-@media only screen and (max-width: 450px){
-    .deck .card{
+
+@media only screen and (max-width: 450px) {
+   .deck .card {
       width: 50px;
       height: 50px;
       line-height: 50px;
-    }
-  
-    .deck {
+   }
+   .deck {
       width: 300px;
-    }
+   }
 }
