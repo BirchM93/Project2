@@ -80,7 +80,7 @@ function gameOver(moves, score) {
 // Clicking on the button located on the top right of the game, enables the cards too be reset
 $restart.bind('click', function (confirmed) {
     if (confirmed) {
-        $rating.removeClass('fa-star-o').addClass('fa-star');
+        
         init();
     }
 });
@@ -122,17 +122,14 @@ let addCardListener = function () {
             // Increments the number of moves by one only when two cards are matched or not matched
             moves++;
 
-            // The number of moves is added to the rating() function that will determine the star score
-            rating(moves);
-
             // The number of moves are added to the modal HTML alert
             $moves.html(moves);
         }
 
         // The game is finished once all cards have been matched, with a short delay
         if (totalCard === match) {
-            rating(moves);
-            let score = rating(moves).score;
+            (moves);
+            let score = moves.score;
             setTimeout(function () {
                 gameOver(moves, score);
             }, 500);
