@@ -20,8 +20,6 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     totalCard = objects.length / 2,
 
     // Scoring system 
-    stars3 = 14,
-    stars2 = 16,
     star1 = 20;
 
 // Shuffling function: enables that no two games have the same card arrangement 
