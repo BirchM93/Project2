@@ -17,10 +17,7 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     moves = 0,
     wait = 420,
     totalCard = objects.length / 2,
-
-    
-    
-    star1 = 20;
+    score = 0;
 
 // Shuffling function: enables that no two games have the same card arrangement 
 function shuffle(array) {
