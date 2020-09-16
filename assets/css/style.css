@@ -26,7 +26,7 @@ html, body {
 
 h2 {
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 200;
 }
 
 /*
@@ -88,7 +88,6 @@ h2 {
     width: 345px;
     margin-bottom: 10px;
 }
-
 
 .score-panel .restart {
     float: right;

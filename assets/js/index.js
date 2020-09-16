@@ -4,7 +4,6 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     // Useful selectors shortened
     $container = $('.container'),
     $scorePanel = $('.score-panel'),
-    $rating = $('.fa-star'),
     $moves = $('.moves'),
     $timer = $('.timer'),
     $restart = $('.restart'),
@@ -19,7 +18,8 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     wait = 420,
     totalCard = objects.length / 2,
 
-    // Scoring system 
+    
+    
     star1 = 20;
 
 // Shuffling function: enables that no two games have the same card arrangement 
@@ -62,8 +62,10 @@ function init() {
     initTime();
 }
 
-// Boostrap modal alert window showing time, moves, and score it took to finish the game, toggles when all pairs are matched.
-function gameOver(moves, score) {
+
+
+// Add boostrap modal alert window showing time and moves it took to finish the game. Toggles when all pairs are matched.
+function gameOver(moves) {
     $('#winnerText').text(`In ${second} seconds, you made a total of ${moves} moves. Well done!`);
     $('#winnerModal').modal('toggle');
 }
@@ -118,7 +120,7 @@ let addCardListener = function () {
 
         // The game is finished once all cards have been matched, with a short delay
         if (totalCard === match) {
-            (moves);
+            moves;
             let score = moves.score;
             setTimeout(function () {
                 gameOver(moves, score);
