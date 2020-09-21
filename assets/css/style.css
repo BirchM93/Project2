@@ -28,6 +28,16 @@ h2 {
    font-weight: 200;
 }
 
+/*
+ * Styles for the Score Panel
+ */
+
+.score-panel {
+   text-align: left;
+   width: 345px;
+   margin-bottom: 10px;
+}
+
 
 /*
  * Styles for the deck of cards
@@ -76,23 +86,6 @@ h2 {
    background: lightyellow;
    font-size: 50px;
 }
-
-
-/*
- * Styles for the Score Panel
- */
-
-.score-panel {
-   text-align: left;
-   width: 345px;
-   margin-bottom: 10px;
-}
-
-.score-panel .restart {
-   float: right;
-   cursor: pointer;
-}
-
 
 /*
  * Responsiveness
