@@ -125,7 +125,7 @@ let addCardListener = function () {
             // Increments the number of moves by one only when two cards are matched or not matched
             moves++;
 
-            // The number of moves is added to the rating() function that will determine the star score
+            // The number of moves is added to the scoring that will determine the score
             scoring(moves);
 
             // The number of moves are added to the modal HTML alert
