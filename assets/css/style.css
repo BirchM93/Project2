@@ -26,21 +26,16 @@ h2 {
   
 }
 
-/*
- * Styles for the Score Panel
- */
 
+ /*Styles for the Score Panel*/
 .score-panel {
    text-align: left;
    width: 345px;
    margin-bottom: 10px;
+   
 }
 
-
-/*
- * Styles for the deck of cards
- */
-
+/*Styles for the deck of cards*/
 .deck {
    width: 660px;
    min-height: 680px;
@@ -85,10 +80,7 @@ h2 {
    font-size: 50px;
 }
 
-/*
- * Responsiveness
- */
-
+/*Media queries*/
 @media only screen and (max-width: 800px) {
    .deck .card {
       width: 75px;
