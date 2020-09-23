@@ -4,4 +4,4 @@
 
 Milestone Project 2: Interactive Frontend Development Milestone Project  - Code Institute
 
-The purpose of my project is to create a single player matching memory game.
+The purpose of this project is to create a single player matching memory game.
