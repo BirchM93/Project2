@@ -1,6 +1,6 @@
 <h1>Match The Icon!</h1>
 
-[View the live project here.]()
+[View the live project here.](https://birchm93.github.io/Project2/)
 
 Milestone Project 2: Interactive Frontend Development Milestone Project  - Code Institute
 
