@@ -1,5 +1,5 @@
-// All usefull objects and shortcuts to simplify coding
-let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle', 'headphones', 'headphones', 'eye', 'eye', 'star', 'star', 'pencil', 'pencil', 'envelope', 'envelope'],
+let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle', 'headphones', 'headphones', 'eye', 'eye', 'star', 'star', 
+'pencil', 'pencil', 'envelope', 'envelope'],
 
    // Selectors
     $container = $('.container'),
