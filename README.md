@@ -1,6 +1,6 @@
 <h1 align="center">Match The Icon</h1>
 
-[Live Demo.](https://birchm93.github.io/Project2/)
+[Live Demo](https://birchm93.github.io/Project2/)
 
 Milestone Project 2: Interactive Frontend Development Milestone Project  - Code Institute
 
@@ -18,4 +18,14 @@ The purpose of this project is to create a single player matching memory game. I
 
 3. Congratulations, you win! An alert window appears tell you your score, time, and moves it took to complete the game. 
 
-4. On the Alert window, you can hit 'Go Again!' to have another go at the game
+4. On the Alert window, you can hit 'Go Again!' to have another go at the game.
+
+## Credits
+
+### Content
+
+-   The code was inspired from the following tutorial: [view] (https://www.youtube.com/watch?v=Nik1E9HdrsI)
+
+### Media
+
+-   The card icons were sourced from [] (https://fontawesome.com/icons?d=gallery)
