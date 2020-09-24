@@ -1,4 +1,4 @@
-<h1>Match The Icon</h1>
+<h1 align="center">Match The Icon</h1>
 
 [Live Demo.](https://birchm93.github.io/Project2/)
 
