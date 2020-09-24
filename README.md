@@ -1,6 +1,5 @@
 <h1 align="center">Match The Icon</h1>
 
-
 Milestone Project 2: Interactive Frontend Development Milestone Project  - Code Institute
 
 The purpose of this project is to create a single player matching memory game. I created a memory game where upon clicked, two cards match and stay open. Once all cards are matched, a popup message appears and congratulates the tester for winning the game. The popup gives a score from 1 to 3, how much time it took, and how many moves it took to finish the game. 
@@ -20,6 +19,29 @@ The purpose of this project is to create a single player matching memory game. I
 3. Congratulations, you win! An alert window appears tell you your score, time, and moves it took to complete the game. 
 
 4. On the Alert window, you can hit 'Go Again!' to have another go at the game.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/BirchM93/Project2)
+2. At the top of the Repository (not top of page), locate the "Settings" button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://birchm93.github.io/Project2/) in the "GitHub Pages" section.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/BirchM93/Project2)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
 
 ## Credits
 
