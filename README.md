@@ -47,7 +47,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Content
 
--   The code was inspired from the following tutorial: [view](https://www.youtube.com/watch?v=Nik1E9HdrsI)
+-   The code was inspired from the following [tutorial](https://www.youtube.com/watch?v=Nik1E9HdrsI)
 
 ### Media
 
