@@ -6,4 +6,4 @@ Milestone Project 2: Interactive Frontend Development Milestone Project  - Code 
 
 The purpose of this project is to create a single player matching memory game.
 
-<h2 align="center"><img src="documentation/screenshots/Responsive"></h2>
+<h2 align="center"><img src="documentation/screenshots/Responsive.png"></h2>
