@@ -28,4 +28,4 @@ The purpose of this project is to create a single player matching memory game. I
 
 ### Media
 
--   [Card Icons] (https://fontawesome.com/icons?d=gallery)
+-   [Card Icons](https://fontawesome.com/icons?d=gallery)
