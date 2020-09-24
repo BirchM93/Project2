@@ -29,3 +29,9 @@ The purpose of this project is to create a single player matching memory game. I
 ### Media
 
 -   [Card Icons](https://fontawesome.com/icons?d=gallery)
+
+### Acknowledgements
+
+-   My mentor Aaron for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their continuous support.
