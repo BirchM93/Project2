@@ -2,7 +2,7 @@
 
 Milestone Project 2: Interactive Frontend Development Milestone Project  - Code Institute
 
-The purpose of this project is to create a single player matching memory game. I created a memory game where upon clicked, two cards match and stay open. Once all cards are matched, a popup message appears and congratulates the tester for winning the game. The popup gives a score from 1 to 3, how much time it took, and how many moves it took to finish the game. 
+The purpose of this project is to create a single player matching memory game. I created a memory game where upon clicked, two cards match and stay open. Once all cards are matched, a popup message appears and congratulates the tester for winning the game. The popup gives a score from 1 to 3, how much time it took, and how many moves it took to finish the game. This game is suitable for any ages. 
 
 [Live Demo](https://birchm93.github.io/Project2/)
 
@@ -19,6 +19,17 @@ The purpose of this project is to create a single player matching memory game. I
 3. Congratulations, you win! An alert window appears tell you your score, time, and moves it took to complete the game. 
 
 4. On the Alert window, you can hit 'Go Again!' to have another go at the game.
+
+## User Experience (UX)
+
+### User stories
+-   As a user, I want a memory game where I have to match identical cards.
+-   As a user, whenever I click on a card, I expect it to flip and an icon appearing.
+-   As a user, when I click on two matching cards, they should both stay flipped.
+-   As a user, if the cards don't match, both cards should flip back.
+-   As a user, I shouldn't be able to click on the same card twice.
+-   As a user, the turns counter should increase every time I flip two cards.
+-   As a user, If all cards are matched I expect a message notifying me of my total score.
 
 ## Deployment
 
