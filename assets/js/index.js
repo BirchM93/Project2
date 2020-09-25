@@ -9,7 +9,7 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     $timer = $('.timer'),
     $deck = $('.deck'),
 
-    // Set variables to shorten code
+    // Set variables 
     nowTime,
     allOpen = [],
     match = 0,
@@ -23,7 +23,7 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     score2 = 16,
     score1 = 20;
 
-    // Adds a score from 1 to 3  depending on the amount of moves done
+    // Adds a score from 1 to 3  depending on the amount of flips done
     function scoring(flips) {
     let scoring = 3;
     if (flips <= score3 ) {
@@ -62,7 +62,7 @@ function init() {
     // The game starts with no matching cards and zero moves 
     match = 0;
     flips = 0;
-    $moves.text('0');
+    $flips.text('0');
 
     // A for loop creates 16  <li> tags with the class of card for every <i> tag
     // A class of fa fa- and a name of each object from the objects=[] array
@@ -81,7 +81,7 @@ function init() {
 
 
 // Add boostrap modal alert window showing time, moves, score it took to finish the game, toggles when all pairs are matched.
-function gameOver(moves, score) {
+function gameOver(flips, score) {
     $('#winnerText').text(`In ${second} seconds, you made a total of ${flips} flips with a score of ${score}. Well done!`);
     $('#winnerModal').modal('toggle');
 }
