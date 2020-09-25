@@ -5,7 +5,7 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     $container = $('.container'),
     $scorePanel = $('.score-panel'),
     $scoring = $('.scoring'),
-    $moves = $('.moves'),
+    $flips = $('.flips'),
     $timer = $('.timer'),
     $deck = $('.deck'),
 
@@ -14,7 +14,7 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     allOpen = [],
     match = 0,
     second = 0,
-    moves = 0,
+    flips = 0,
     wait = 420,
     totalCard = objects.length / 2,
 
@@ -24,14 +24,14 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     score1 = 20;
 
     // Adds a score from 1 to 3  depending on the amount of moves done
-    function scoring(moves) {
+    function scoring(flips) {
     let scoring = 3;
-    if (moves <= score3 ) {
+    if (flips <= score3 ) {
         $scoring.eq(3)
-    } else if (moves >= score2 && moves < score1) {
+    } else if (flips >= score2 && flips < score1) {
         $scoring.eq(2)
         scoring = 2;
-    } else if (moves >= score1) {
+    } else if (flips >= score1) {
         $scoring.eq(1)
         scoring = 1;
     }
@@ -61,7 +61,7 @@ function init() {
 
     // The game starts with no matching cards and zero moves 
     match = 0;
-    moves = 0;
+    flips = 0;
     $moves.text('0');
 
     // A for loop creates 16  <li> tags with the class of card for every <i> tag
@@ -82,7 +82,7 @@ function init() {
 
 // Add boostrap modal alert window showing time, moves, score it took to finish the game, toggles when all pairs are matched.
 function gameOver(moves, score) {
-    $('#winnerText').text(`In ${second} seconds, you made a total of ${moves} moves with a score of ${score}. Well done!`);
+    $('#winnerText').text(`In ${second} seconds, you made a total of ${flips} flips with a score of ${score}. Well done!`);
     $('#winnerModal').modal('toggle');
 }
 
@@ -122,22 +122,22 @@ let addCardListener = function () {
             // The allOpen array specifies all added cards facing up
             allOpen = [];
 
-            // Increments the number of moves by one only when two cards are matched or not matched
-            moves++;
+            // Increments the number of flips by one only when two cards are matched or not matched
+            flips++;
 
-            // The number of moves is added to the scoring that will determine the score
-            scoring(moves);
+            // The number of flips is added to the scoring that will determine the score
+            scoring(flips);
 
-            // The number of moves are added to the modal HTML alert
-            $moves.html(moves);
+            // The number of flips are added to the modal HTML alert
+            $flips.html(flips);
         }
 
         // The game is finished once all cards have been matched, with a short delay
         if (totalCard === match) {
-            scoring(moves);
-            let score = scoring(moves).score;
+            scoring(flips);
+            let score = scoring(flips).score;
             setTimeout(function () {
-                gameOver(moves, score);
+                gameOver(flips, score);
             }, 500);
         }
     });
