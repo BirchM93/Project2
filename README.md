@@ -31,6 +31,32 @@ The purpose of this project is to create a single player matching memory game. I
 -   As a user, the turns counter should increase every time I flip two cards.
 -   As a user, If all cards are matched I expect a message notifying me of my total score.
 
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap 3.3.7:](https://getbootstrap.com/docs/3.3/getting-started/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Font Awesome:](https://fontawesome.com/icons?d=gallery)
+    - Font Awesome was used to add icons for UX purposes.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create wireframes during the design process.
+
+## Testing
+
+### Code Validation
+-   [W3C Markup Validator](https://validator.w3.org/) - No errors found.
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No errors were found.
+-   [Esprima Javascript Validator](https://esprima.org/demo/validate.html) - Code is valid.
+
 ## Deployment
 
 ### GitHub Pages
