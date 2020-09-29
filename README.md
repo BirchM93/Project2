@@ -22,18 +22,19 @@ The purpose of this project is to create a single player matching memory game. I
 
 ## User Experience (UX)
 
-### User stories
--   As a user, I want a memory game where I have to match identical cards.
--   As a user, whenever I click on a card, I expect it to flip with an icon appearing.
--   As a user, when I click on two matching cards, they should both stay flipped.
--   As a user, if the cards don't match, both cards should flip back.
--   As a user, I shouldn't be able to click on the same card twice.
--   As a user, the turns counter should increase every time I flip two cards.
--   As a user, If all cards are matched I expect a message notifying me of my total score.
+-   ### User stories
+
+    -   As a user, I want a memory game where I have to match identical cards.
+    -   As a user, whenever I click on a card, I expect it to flip with an icon appearing.
+    -   As a user, when I click on two matching cards, they should both stay flipped.
+    -   As a user, if the cards don't match, both cards should flip back.
+    -   As a user, I shouldn't be able to click on the same card twice.
+    -   As a user, the turns counter should increase every time I flip two cards.
+    -   As a user, If all cards are matched I expect a message notifying me of my total score.
 
 *   ### Wireframes
 
--   [View]()
+    -   [View]()
 
 ## Features
 
