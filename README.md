@@ -39,9 +39,9 @@ The purpose of this project is to create a single player matching memory game. I
 
 <img src = "documentation/screenshots/UserInterface.png">
 
--   #### Timer - starts when the site is opened.
--   #### Flips - number of moves displayed after clicking on two cards.
--   #### Restart button - if the user needs to start again.
+-   ### Timer - starts when the site is opened.
+-   ### Flips - number of moves displayed after clicking on two cards.
+-   ### Restart button - if the user needs to start again.
 
 ## Technologies Used
 
