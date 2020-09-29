@@ -35,6 +35,11 @@ h2 {
    
 }
 
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+}
+
 /*Styles for the deck of cards*/
 .deck {
    width: 660px;

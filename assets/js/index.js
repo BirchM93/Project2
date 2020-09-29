@@ -7,6 +7,7 @@ let objects = ['glass', 'glass', 'key', 'key', 'space-shuttle', 'space-shuttle',
     $scoring = $('.scoring'),
     $flips = $('.flips'),
     $timer = $('.timer'),
+    $restart = $('.restart'),
     $deck = $('.deck'),
 
     // Set variables 
@@ -85,6 +86,14 @@ function gameOver(flips, score) {
     $('#winnerText').text(`In ${second} seconds, you made a total of ${flips} flips with a score of ${score}. Well done!`);
     $('#winnerModal').modal('toggle');
 }
+
+// Clicking on the button located on the top right of the game, enables the cards too be reset
+$restart.bind('click', function (confirmed) {
+    if (confirmed) {
+        $scoring.removeClass;
+        init();
+    }
+});
 
 
 

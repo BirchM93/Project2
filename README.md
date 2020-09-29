@@ -31,6 +31,15 @@ The purpose of this project is to create a single player matching memory game. I
 -   As a user, the turns counter should increase every time I flip two cards.
 -   As a user, If all cards are matched I expect a message notifying me of my total score.
 
+*   ### Wireframes
+
+## Features
+
+<img src = "documentation/screenshots/UserInterface.png">
+
+-   Timer - starts when the site is opened.
+-   Flips - number of moves displayed after clicking on two cards.
+-   Restart button - if the user needs to start again.
 ## Technologies Used
 
 ### Languages Used
