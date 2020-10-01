@@ -35,7 +35,7 @@ The purpose of this project is to create a single-player matching memory game. I
 -   ### Design
     -   #### Colour Scheme
         -   The heading is dark red.
-        -   The body is a cornsilk colur.
+        -   The body is a cornsilk colour.
         -   The deck is a gradient of light blue and white.
         -   The cards when unflipped are slate grey.
         -   When a card is flipped, the card turns white.
