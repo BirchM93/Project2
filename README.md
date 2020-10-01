@@ -54,6 +54,16 @@ The purpose of this project is to create a single-player matching memory game. I
     -   Display’s user's score, number of moves & how many seconds the user took to complete the game.
     -   Prompts the user to play again with a "Go Again" button.
 
+-   #### Icons used
+    -   Headphones
+    -   Star
+    -   Key
+    -   Pencil
+    -   Cocktail Glass
+    -   Space Shuttle
+    -   Eye 
+    -   Envelope
+
 ### Features Left to Implement
 
 -   Putting stars to rate how good the player is.
