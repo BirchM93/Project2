@@ -90,14 +90,14 @@ The purpose of this project is to create a single-player matching memory game. I
 #### Card Flip
 <img src="documentation/screenshots/CardFlip.png">
 
--   When the user clicks on any of the grid squares the card will face over and an icon will appear.
+-   When the user clicks on any of the empty cards, the card will face over and an icon will appear.
 -   The colour of the icon is red with a white background
 
 #### Matching of cards
 <img src="documentation/screenshots/CardMatch.png">
 
 -   When two of the same icons are faced over, the background colour of the icons will change to a light yellow indicating a match.
--   The two matched cards will stay faced over and those grid squares cannot be clicked again.
+-   The two matched cards will stay faced over and those two cards cannot be clicked again.
 
 #### Modal Screen
 <img src="documentation/screenshots/ModalScreen.png">
