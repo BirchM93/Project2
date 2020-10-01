@@ -100,7 +100,7 @@ The purpose of this project is to create a single-player matching memory game. I
 <img src="documentation/screenshots/CardFlip.png">
 
 -   When the user clicks on any of the empty cards, the card will face over and an icon will appear.
--   The colour of the icon is red with a white background
+-   The card when flipped turns white with a red icon appearing.
 
 #### Matching of cards
 <img src="documentation/screenshots/CardMatch.png">
