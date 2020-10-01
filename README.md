@@ -44,10 +44,11 @@ The purpose of this project is to create a single player matching memory game. I
     -   Timer - starts when the site is opened.
     -   Flips - number of moves displayed after clicking on two cards.
     -   Restart button - if the user needs to start again.
+    -   Score Panel consists of 16 cards.
     -   Responsive card tiles.
 
 -   #### Modal Screen
-    <img src= "documentation/screenshots/ModalScreen.png">
+    <img src= "documentation/screenshots/ModalFeature.png">
 
     -   This popup screen appears when the user matches all the cards on the grid.
     -   Display’s users score, number of moves & how many seconds the user took to complete the game.
@@ -98,7 +99,13 @@ The purpose of this project is to create a single player matching memory game. I
 -   When two of the same icons are faced over, the background color of the icons will change to a light yellow indicating a match.
 -   The two matched cards will stay faced over and those grid squares cannot be clicked again.
 
+#### Modal Screen
+<img src="documentation/screenshots/ModalScreen.png">
 
+-   When all the following cards are matched, a white modal popup screen appears at the top of the screen.
+-   Indicates how many seconds it took for the user to complete the game.
+-   Scoring system is calculated by a score of 1 (number of moves is 20 or more), 2 (number of moves is between 16 & 19) and 3 (number of moves is 15 or less).
+-   "Go Again" button on the bottom right of the modal screen when clicked will reset the panel and all the cards will be turned over.
 
 ## Deployment
 
