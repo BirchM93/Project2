@@ -46,7 +46,9 @@ The purpose of this project is to create a single player matching memory game. I
     -   Restart button - if the user needs to start again.
     -   Responsive card tiles.
 
-<img src= "documentation/screenshots/modalscreen.png">
+-   #### Modal Screen
+    <img src= "documentation/screenshots/ModalScreen.png">
+    This popup screen appears when the user matches all the cards on the grid and prompts the user to play again with a "Go Again" button.
 
 
 ## Technologies Used
