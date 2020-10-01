@@ -53,6 +53,10 @@ The purpose of this project is to create a single player matching memory game. I
     -   Display’s users score, number of moves & how many seconds the user took to complete the game.
     -   Prompts the user to play again with a "Go Again" button.
 
+### Features Left to Implement
+
+-   Putting stars to rate how good the player is.
+-   Add some options of levels which in every level has different challenges.
 
 ## Technologies Used
 
