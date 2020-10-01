@@ -84,6 +84,22 @@ The purpose of this project is to create a single player matching memory game. I
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No errors were found.
 -   [Esprima Javascript Validator](https://esprima.org/demo/validate.html) - Code is valid.
 
+### Feature Testing
+
+#### Card Flip
+<img src="documentation/screenshots/CardFlip.png">
+
+-   When the user clicks on any of the grid squares the card will face over and an icon will appear.
+-   Icon was tested with a red color with a white background.
+
+#### Matching of cards
+<img src="documentation/screenshots/CardMatch.png">
+
+-   When two of the same icons are faced over, the background color of the icons will change to a light yellow indicating a match.
+-   The two matched cards will stay faced over and those grid squares cannot be clicked again.
+
+
+
 ## Deployment
 
 ### GitHub Pages
