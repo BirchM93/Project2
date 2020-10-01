@@ -35,10 +35,6 @@ h2 {
    
 }
 
-.score-panel .restart {
-    float: right;
-    cursor: pointer;
-}
 
 /*Styles for the deck of cards*/
 .deck {
@@ -64,7 +60,7 @@ h2 {
    color: #f10c0c;
    border-radius: 8px;
    cursor: pointer;
-   display: flex !important;
+   display: flex;
    justify-content: center;
    align-items: center;
 }

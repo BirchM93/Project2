@@ -32,6 +32,17 @@ The purpose of this project is to create a single-player matching memory game. I
     -   As a user, the turns counter should increase every time I flip two cards.
     -   As a user, If all cards are matched I expect a message notifying me of my total score.
 
+-   ### Design
+    -   #### Colour Scheme
+        -   The heading is dark red.
+        -   The body is a cornsilk colur.
+        -   The deck is a gradient of light blue and white.
+        -   The cards when unflipped are slate grey.
+        -   When a card is flipped, the card turns white.
+        -   The icon when the card flips over is red.
+        -   When two cards match, the cards change to light yellow with the icons remaining red.
+
+
 *   ### Wireframes
 
     -   [View]()
