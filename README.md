@@ -50,7 +50,7 @@ The purpose of this project is to create a single-player matching memory game. I
 -   #### Modal Screen
     <img src= "documentation/screenshots/ModalFeature.png">
 
-    -   This popup screen appears when the user matches all the cards on the grid.
+    -   This popup screen appears when the user matches all the cards on the deck.
     -   Display’s user's score, number of moves & how many seconds the user took to complete the game.
     -   Prompts the user to play again with a "Go Again" button.
 
