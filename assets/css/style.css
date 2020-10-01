@@ -60,7 +60,7 @@ h2 {
    color: #f10c0c;
    border-radius: 8px;
    cursor: pointer;
-   display: flex;
+   display: flex !important;
    justify-content: center;
    align-items: center;
 }
