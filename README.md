@@ -107,6 +107,18 @@ The purpose of this project is to create a single player matching memory game. I
 -   Scoring system is calculated by a score of 1 (number of moves is 20 or more), 2 (number of moves is between 16 & 19) and 3 (number of moves is 15 or less).
 -   "Go Again" button on the bottom right of the modal screen when clicked will reset the panel and all the cards will be turned over.
 
+### Further Testing
+
+-   This website was tested on Google Chrome, Internet Explorer, Firefox, and Safari browsers.
+-   Responsive on all device sizes.
+
+### Known Bugs
+
+-   On the iPhone 5, the card panel does not take up the full screen
+    -   Bottom 4 squares are not visible.
+
+-   Also on the iPhone 5, user cannot see the number of moves taken.
+
 ## Deployment
 
 ### GitHub Pages
