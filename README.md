@@ -2,7 +2,7 @@
 
 Milestone Project 2: Interactive Frontend Development Milestone Project  - Code Institute
 
-The purpose of this project is to create a single player matching memory game. I created a memory game where upon clicked, two cards match and stay open. Once all cards are matched, a popup message appears and congratulates the tester for winning the game. The popup gives a score from 1 to 3, how much time it took, and how many moves it took to finish the game. This game is suitable for any ages. 
+The purpose of this project is to create a single-player matching memory game. I created a memory game whereupon clicked, two cards match and stay open. Once all cards are matched, a popup message appears and congratulates the tester for winning the game. The popup gives a score from 1 to 3, how much time it took, and how many moves it took to finish the game. This game is suitable for any age. 
 
 [Live Demo](https://birchm93.github.io/Project2/)
 
@@ -16,7 +16,7 @@ The purpose of this project is to create a single player matching memory game. I
 
 2. Keep matching up pairs until all cards are matched and faced up. 
 
-3. Congratulations, you win! An alert window appears tell you your score, time, and moves it took to complete the game. 
+3. Congratulations, you win! An alert window appears to telling you your score, time, and moves it took to complete the game. 
 
 4. On the Alert window, you can hit 'Go Again!' to have another go at the game.
 
@@ -44,20 +44,20 @@ The purpose of this project is to create a single player matching memory game. I
     -   Timer - starts when the site is opened.
     -   Flips - number of moves displayed after clicking on two cards.
     -   Restart button - if the user needs to start again.
-    -   Score Panel consists of 16 cards.
+    -   The deck consists of 16 cards.
     -   Responsive card tiles.
 
 -   #### Modal Screen
     <img src= "documentation/screenshots/ModalFeature.png">
 
     -   This popup screen appears when the user matches all the cards on the grid.
-    -   Display’s users score, number of moves & how many seconds the user took to complete the game.
+    -   Display’s user's score, number of moves & how many seconds the user took to complete the game.
     -   Prompts the user to play again with a "Go Again" button.
 
 ### Features Left to Implement
 
 -   Putting stars to rate how good the player is.
--   Add some options of levels which in every level has different challenges.
+-   Add some options of levels which in every level have different challenges.
 
 ## Technologies Used
 
@@ -81,7 +81,7 @@ The purpose of this project is to create a single player matching memory game. I
 ## Testing
 
 ### Code Validation
--   [W3C Markup Validator](https://validator.w3.org/) - No errors found.
+-   [W3C Markup Validator](https://validator.w3.org/) - No errors were found.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No errors were found.
 -   [Esprima Javascript Validator](https://esprima.org/demo/validate.html) - Code is valid.
 
@@ -91,12 +91,12 @@ The purpose of this project is to create a single player matching memory game. I
 <img src="documentation/screenshots/CardFlip.png">
 
 -   When the user clicks on any of the grid squares the card will face over and an icon will appear.
--   Icon was tested with a red color with a white background.
+-   The colour of the icon is red with a white background
 
 #### Matching of cards
 <img src="documentation/screenshots/CardMatch.png">
 
--   When two of the same icons are faced over, the background color of the icons will change to a light yellow indicating a match.
+-   When two of the same icons are faced over, the background colour of the icons will change to a light yellow indicating a match.
 -   The two matched cards will stay faced over and those grid squares cannot be clicked again.
 
 #### Modal Screen
@@ -104,7 +104,7 @@ The purpose of this project is to create a single player matching memory game. I
 
 -   When all the following cards are matched, a white modal popup screen appears at the top of the screen.
 -   Indicates how many seconds it took for the user to complete the game.
--   Scoring system is calculated by a score of 1 (number of moves is 20 or more), 2 (number of moves is between 16 & 19) and 3 (number of moves is 15 or less).
+-   The scoring system is calculated by a score of 1 (number of moves is 20 or more), 2 (number of moves is between 16 & 19) and, 3 (number of moves is 15 or less).
 -   "Go Again" button on the bottom right of the modal screen when clicked will reset the panel and all the cards will be turned over.
 
 ### Further Testing
@@ -115,9 +115,9 @@ The purpose of this project is to create a single player matching memory game. I
 ### Known Bugs
 
 -   On the iPhone 5, the card panel does not take up the full screen
-    -   Bottom 4 squares are not visible.
+    -   The bottom 4 deck of cards are not visible.
 
--   Also on the iPhone 5, user cannot see the number of moves taken.
+-   Also on the iPhone 5, the user cannot see the number of moves taken.
 
 ## Deployment
 
