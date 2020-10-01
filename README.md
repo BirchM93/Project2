@@ -55,14 +55,15 @@ The purpose of this project is to create a single-player matching memory game. I
     -   Prompts the user to play again with a "Go Again" button.
 
 -   #### Icons used
-    -   Headphones
-    -   Star
-    -   Key
-    -   Pencil
-    -   Cocktail Glass
-    -   Space Shuttle
-    -   Eye 
-    -   Envelope
+    <img src= "documentation/screenshots/Star.png">
+    <img src= "documentation/screenshots/Headphones.png">
+    <img src= "documentation/screenshots/Key.png">
+    <img src= "documentation/screenshots/Space-Shuttle.png">
+    <img src= "documentation/screenshots/Eye.png">
+    <img src= "documentation/screenshots/Pencil.png">
+    <img src= "documentation/screenshots/Glass.png">
+    <img src= "documentation/screenshots/Envelope.png">
+    
 
 ### Features Left to Implement
 
