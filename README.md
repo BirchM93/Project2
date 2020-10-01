@@ -39,8 +39,6 @@ The purpose of this project is to create a single-player matching memory game. I
 ## Features
 
 -   #### User Interface
-    <img src = "documentation/screenshots/UserInterface.png">
-
     -   Timer - starts when the site is opened.
     -   Flips - number of moves displayed after clicking on two cards.
     -   Restart button - if the user needs to start again.
@@ -53,7 +51,7 @@ The purpose of this project is to create a single-player matching memory game. I
     -   This popup screen appears when the user matches all the cards on the deck.
     -   Display’s user's score, number of moves & how many seconds the user took to complete the game.
     -   Prompts the user to play again with a "Go Again" button.
-    
+
 ### Features Left to Implement
 
 -   Putting stars to rate how good the player is.
