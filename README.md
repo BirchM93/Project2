@@ -45,7 +45,7 @@ The purpose of this project is to create a single-player matching memory game. I
 
 *   ### Wireframes
 
-    -   [View](<img src= "documentation/wireframes/Gamepage.png">)
+    -   [Game Page](https://github.com/BirchM93/Project2/blob/master/documentation/wireframes/Gamepage.png)
 
 ## Features
 
